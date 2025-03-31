@@ -55,11 +55,11 @@ I will have completed the following courses/resources/tasks/artifacts as evidenc
   - Variables, Constants, and Data Types in C#
 - Tuesday [04/01/2025]: Control Structures and Functions in C#
   - Conditional Statements (if-else, switch)
-- Loops (for, while, do-while)
-- Functions in C# (creating and calling)
-- Passing Arguments to Functions
-- Returning Values from Functions
-- Wednesday [date]:
+   - Loops (for, while, do-while)
+   - Functions in C# (creating and calling)
+   - Passing Arguments to Functions
+   - Returning Values from Functions
+- Wednesday [04/02/2025]:
 - Thursday [date]:
 - Friday [date]:
 - Monday [date]:
@@ -80,10 +80,10 @@ While your coaches will use it as a soft point of accountability,
 you should use it only as much as it supports your reflections in learning.
 Sentences, bullet points, paragraphs, copy and pastes are welcome!***"
 
-| Today's Date                       |                                                                                                                                                     |
+| Today's Date 03/31/2025                       |                                                                                                                                                     |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| What content plan to cover         | # This should match your learning schedule above                                                                                                    |
-| What content I actually covered    | # This is the content you actually managed to get through                                                                                           |
-| Reflection on what I learned today | # How this will apply on the job, something you found enjoyable, insightful, difficult, or questions that arose as result of the learning           |
-| Reflection on how I learned today  | # Why was today a good or bad day? What patterns am I noticing in myself when learning? How effective was I today as an independent learner?        |
-| Reflections for the following day  | # Am I on track against my original goals, or is there a need to adapt? What support will I need from my coach with any changes I may need to make? |
+| What content plan to cover         | Introduction to C# and .NET Framework, Writing Your First C# Program. Basic Syntax and Data Types, Variables, Constants, and Data Types in C#.                                                                                                    |
+| What content I actually covered    | All of the above.                                                                                    |
+| Reflection on what I learned today | I really enjoyed working with the .NET framework because it seems very straight forward on how to use it and it has lots of really nice app templates from the start. I also really like Microsoft documentation and learning modules.        |
+| Reflection on how I learned today  | I think today went very well because I was able get some actual coding practice in microsoft modules and also created my first C# project and did some practice examples. |
+| Reflections for the following day  | So far I think the plan seems to be working, I need to make sure I stay focused on the current goals for the day to make sure I get a deep understanding before jumping into creating more complex apps.  |
