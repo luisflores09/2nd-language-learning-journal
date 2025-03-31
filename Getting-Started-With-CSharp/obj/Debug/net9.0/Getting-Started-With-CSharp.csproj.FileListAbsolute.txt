@@ -1,0 +1,15 @@
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\bin\Debug\net9.0\Getting-Started-With-CSharp.exe
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\bin\Debug\net9.0\Getting-Started-With-CSharp.deps.json
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\bin\Debug\net9.0\Getting-Started-With-CSharp.runtimeconfig.json
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\bin\Debug\net9.0\Getting-Started-With-CSharp.dll
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\bin\Debug\net9.0\Getting-Started-With-CSharp.pdb
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\Getting-Started-With-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\Getting-Started-With-CSharp.AssemblyInfoInputs.cache
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\Getting-Started-With-CSharp.AssemblyInfo.cs
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\Getting-Started-With-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\Getting-Started-With-CSharp.sourcelink.json
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\Getting-Started-With-CSharp.dll
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\refint\Getting-Started-With-CSharp.dll
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\Getting-Started-With-CSharp.pdb
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\Getting-Started-With-CSharp.genruntimeconfig.cache
+C:\Users\FlLu582\Desktop\Multiverse\Unit9\2nd-language-learning-journal\Getting-Started-With-CSharp\obj\Debug\net9.0\ref\Getting-Started-With-CSharp.dll
