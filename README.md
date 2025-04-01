@@ -12,7 +12,7 @@
 
 ## Overall Objectives for learning:
 
-By the end of the first two weeks. I will have developed my skill in:
+By the end of the first two weeks. I will have developed my skills in:
 
 [//]: # (The example\(s\) below should be specifics of the content that you plan on covering over the course of the 2 week learning period. Additionally, they should be based directly on feedback from your manager.)
 
@@ -57,6 +57,7 @@ I will have completed the following courses/resources/tasks/artifacts as evidenc
   - Conditional Statements (if-else, switch)
    - Loops (for, while, do-while)
    - Functions in C# (creating and calling)
+   - Language Integrated Query LINQ
    - Passing Arguments to Functions
    - Returning Values from Functions
 - Wednesday [04/02/2025]:
@@ -87,3 +88,13 @@ Sentences, bullet points, paragraphs, copy and pastes are welcome!***"
 | Reflection on what I learned today | I really enjoyed working with the .NET framework because it seems very straight forward on how to use it and it has lots of really nice app templates from the start. I also really like Microsoft documentation and learning modules.        |
 | Reflection on how I learned today  | I think today went very well because I was able get some actual coding practice in microsoft modules and also created my first C# project and did some practice examples. |
 | Reflections for the following day  | So far I think the plan seems to be working, I need to make sure I stay focused on the current goals for the day to make sure I get a deep understanding before jumping into creating more complex apps.  |
+
+
+
+| Today's Date 04/01/2025                       |                                                                                                                                                     |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| What content plan to cover         | Control Structures and Functions in C#. Conditional Statements (if-else, switch). Loops (for, while, do-while). Functions in C# (creating and calling). Passing Arguments to Functions. Returning Values from Functions.                                                                                                   |
+| What content I actually covered    | All of the above.                                                                                    |
+| Reflection on what I learned today | I enjoyed learning about LINQ and how to use it to filter and sort lists and arrays, and how the syntax is similar to SQL which made it easier to understand.        |
+| Reflection on how I learned today  | Today went well, I was able to code along a full C# tutorial going over the basic concepts for C#. |
+| Reflections for the following day  | I need to make sure to stay on track with the current goals before I start digging into other rabitholes.  |

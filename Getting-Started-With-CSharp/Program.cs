@@ -49,6 +49,7 @@ Console.WriteLine("Constant Pi: " + Pi);
 // Example of different data types
 byte myByte = 255; // 8-bit unsigned integer
 short myShort = -32768; // 16-bit signed integer
+int myInt32 = 2147483647; // 32-bit signed integer
 long myLong = 9223372036854775807; // 64-bit signed integer
 float myFloat = 3.14f; // Single-precision floating-point type
 decimal myDecimal = 19.99m; // High-precision decimal type
@@ -56,6 +57,7 @@ decimal myDecimal = 19.99m; // High-precision decimal type
 // Print the variables
 Console.WriteLine("Byte: " + myByte);
 Console.WriteLine("Short: " + myShort);
+Console.WriteLine("Int32: " + myInt32);
 Console.WriteLine("Long: " + myLong);
 Console.WriteLine("Float: " + myFloat);
 Console.WriteLine("Decimal: " + myDecimal);
@@ -127,4 +129,141 @@ Console.WriteLine("\n<--- Name Badge --->");
 Console.WriteLine("Name: " + name);
 Console.WriteLine("Job Title: " + job);
 Console.WriteLine("Contact Info: " + contactInfo);
+Console.WriteLine("<------------------->");
+
+// Example of string interpolation
+string fristFriend = "     Maria     "; // Declare a string with leading and trailing spaces
+string secondFriend = "     Scott     "; // Declare another string with spaces
+fristFriend = fristFriend.Trim(); // Remove leading and trailing spaces from the first string
+
+// Use string interpolation to combine the trimmed strings into a sentence
+string friends = $"My friends are {fristFriend} and {secondFriend.Trim()}.";
+
+Console.WriteLine(friends); // Print the sentence with the friends' names
+Console.WriteLine(friends.Replace("Scott", "Anthony")); // Replace "Scott" with "Anthony" and print the updated sentence
+
+// Nested loop example to generate cell coordinates
+for (int row = 1; row < 11; row++) // Outer loop for rows (1 to 10)
+{
+    for (char column = 'a'; column < 'k'; column++) // Inner loop for columns ('a' to 'j')
+    {
+        // Print the cell coordinates in the format (row, column)
+        Console.WriteLine($"The cell is ({row}, {column})");
+    }
+}
+
+Console.WriteLine("<---------Cup<T>---------->");
+
+// Create a list of names
+var names = new List<string> { "Alice", "Bob", "Charlie" };
+
+names.Add("Frank"); // Add a new name to the list
+names.Add("Zack"); // Add a new name to the list
+names.Add("Tom"); // Add a new name to the list
+
+// Iterate through each name in the list
+foreach (var nameValue in names)
+{
+    // Print a greeting with the name in uppercase
+    Console.WriteLine($"Hello {nameValue.ToUpper()}!");
+}
+
+Console.WriteLine(names[0]); // Print the first name in the list
+Console.WriteLine(names[names.Count - 1]); // Print the last name in the list
+Console.WriteLine(names[^1]); // Print the last name in the list using the index from the end
+Console.WriteLine(names[0..2]); // Print the first two names in the list using range syntax
+Console.WriteLine(names[1..^1]); // Print the names from index 1 to the second-to-last name using range syntax
+Console.WriteLine(names[1..]); // Print all names starting from index 1 using range syntax
+Console.WriteLine(names[..^1]); // Print all names except the last one using range syntax
+
+Console.WriteLine("<------------------->");
+
+Console.WriteLine("<---------Sorting and Searching Lists---------->");
+names.Sort(); // Sort the list of names in ascending order
+foreach (var nameValue in names)
+{
+    // Print a greeting with the name in uppercase
+    Console.WriteLine($"{nameValue}");
+}
+Console.WriteLine($"Index of 'Alice': {names.IndexOf("Alice")}"); // Find the index of "Alice" in the list
+Console.WriteLine("<------------------->");
+
+Console.WriteLine("<---------Language Integrated Query (LINQ) and IEnumerable---------->");
+// Create a list of scores
+List<int> scores = new List<int> { 90, 80, 70, 60, 50 };
+
+// Use LINQ to filter scores greater than 60
+IEnumerable<string> scoreQuery =
+    from score in scores // Iterate through each score in the list
+    where score > 60     // Filter scores that are greater than 60
+    orderby score descending // Sort the filtered scores in descending order
+    select $"The score is {score}";        // Select the filtered scores
+
+// Iterate through the filtered scores and print them
+foreach (string i in scoreQuery)
+{
+    Console.WriteLine(i); // Print scores greater than 60
+}
+
+Console.WriteLine("<------------------->");
+
+Console.WriteLine("<---------LINQ Method Syntax vs Query---------->");
+var scoreQueryMethod = scores
+    .Where(score => score > 60) // Filter scores greater than 60 using method syntax
+    .OrderByDescending(score => score) // Sort the filtered scores in descending order using method syntax
+    .Select(score => $"The score is {score}"); // Select the filtered scores
+
+Console.WriteLine(scoreQueryMethod);
+Console.WriteLine("<------------------->");
+
+Console.WriteLine("<---------Functions in C# (creating and calling)---------->");
+// Function to calculate the square of a number
+int Square(int number)
+{
+    return number * number; // Return the square of the input number
+}
+
+// Function to calculate the sum of two numbers
+int Sum(int a, int b)
+{
+    return a + b; // Return the sum of the two input numbers
+}
+
+Console.WriteLine($"Square of 5: {Square(5)}"); // Call the Square function with 5 as input
+Console.WriteLine($"Sum of 3 and 4: {Sum(3, 4)}"); // Call the Sum function with 3 and 4 as input
+
+Console.WriteLine("<------------------->");
+
+
+Console.WriteLine("<---------Rock, Paper, Scissors---------->");
+// Ask the user for an input of rock, paper, or scissors
+Console.Write("Enter rock, paper, or scissors: ");
+string userInput = Console.ReadLine().ToLower(); // Read user input and convert it to lowercase
+string[] choices = { "rock", "paper", "scissors" }; // Array of valid choices
+// Randomly select a choice for the computer
+Random random = new Random(); // Create a new Random object
+int computerChoiceIndex = random.Next(choices.Length); // Generate a random index
+string computerChoice = choices[computerChoiceIndex]; // Get the computer's choice based on the random index
+// Determine the winner of the game
+if (userInput == computerChoice)
+{
+    Console.WriteLine($"It's a tie! You both chose{userInput}."); // Print a message if both choices are the same
+}
+else if ((userInput == "rock" && computerChoice == "scissors") ||
+         (userInput == "paper" && computerChoice == "rock") ||
+         (userInput == "scissors" && computerChoice == "paper"))
+{
+    Console.WriteLine($"You win! {userInput} beats {computerChoice}."); // Print a message if the user wins
+}
+else if (Array.Exists(choices, choice => choice == userInput)) // Check if the user's input is valid
+{
+    Console.WriteLine($"You lose! {computerChoice} beats {userInput}."); // Print a message if the user loses
+}
+else
+{
+    Console.WriteLine("Invalid input. Please enter rock, paper, or scissors."); // Print a message for invalid input
+}
+Console.WriteLine($"Computer chose: {computerChoice}"); // Print the computer's choice
+
+
 Console.WriteLine("<------------------->");
