@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getting-Started-With-CSharp", "Getting-Started-With-CSharp\Getting-Started-With-CSharp.csproj", "{E8B44ADB-2E96-4805-A7FB-0B555B34C787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{00BE6240-6D11-4939-8F10-A8EDD115A179}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{E8B44ADB-2E96-4805-A7FB-0B555B34C787}.Release|x64.Build.0 = Release|Any CPU
 		{E8B44ADB-2E96-4805-A7FB-0B555B34C787}.Release|x86.ActiveCfg = Release|Any CPU
 		{E8B44ADB-2E96-4805-A7FB-0B555B34C787}.Release|x86.Build.0 = Release|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Debug|x64.Build.0 = Debug|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Debug|x86.Build.0 = Debug|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Release|x64.ActiveCfg = Release|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Release|x64.Build.0 = Release|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Release|x86.ActiveCfg = Release|Any CPU
+		{00BE6240-6D11-4939-8F10-A8EDD115A179}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

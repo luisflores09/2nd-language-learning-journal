@@ -267,3 +267,59 @@ Console.WriteLine($"Computer chose: {computerChoice}"); // Print the computer's 
 
 
 Console.WriteLine("<------------------->");
+
+Console.WriteLine("<---------Object Oriented Programming (OOP)---------->");
+
+
+// Create an instance of the Person class with first name, last name, and birthdate
+var p1 = new Person("John", "Doe", new DateOnly(1990, 1, 1));
+
+// Create another instance of the Person class
+var p2 = new Person("Jane", "Smith", new DateOnly(1995, 5, 15));
+
+// Create a list of Person objects and add the created instances
+List<Person> people = [p1, p2];
+p1.Pets.Add(new Cat("Mittens")); // Add a cat to p1's pets
+p1.Pets.Add(new Dog("Buddy")); // Add a dog to p1's pets
+p2.Pets.Add(new Cat("Whiskers")); // Add a cat to p2's pets
+p2.Pets.Add(new Dog("Rex")); // Add a dog to p2's pets
+
+// Print a message indicating the list of people
+Console.WriteLine("People in the list:");
+
+// Iterate through each Person object in the list
+foreach (var person in people)
+{
+    // Print the person's details and their pets' details in a single line using string interpolation
+    Console.WriteLine($"Name: {person.FirstName} {person.LastName}, Birthdate: {person.BirthDate}, Pets: {string.Join(", ", person.Pets.Select(pet => $"{pet.Frist} ({pet.MakeNoise()})"))}");
+}
+
+// Define the Person class with properties for first name, last name, and birthdate
+public class Person(string firstname, string lastname, DateOnly birthday)
+{
+    // Auto-implemented property for the first name
+    public string FirstName { get; } = firstname;
+
+    // Auto-implemented property for the last name
+    public string LastName { get; } = lastname;
+
+    // Auto-implemented property for the birthdate
+    public DateOnly BirthDate { get; } = birthday;
+
+    public List<Pet> Pets { get; } = new(); // List of pets owned by the person
+}
+
+public abstract class Pet(string firstname)
+{
+    public string Frist { get; } = firstname; // Auto-implemented property for the first name
+    public abstract string MakeNoise(); // Abstract method to be implemented by derived classes
+}
+public class Cat(string firstname): Pet(firstname)
+{
+    public override string MakeNoise() => "Meow!"; // Method that returns a string "Meow!"
+}
+
+public class Dog(string firstname) : Pet(firstname)
+{
+    public override string MakeNoise() => "Bark!"; // Method that returns a string "Bark!"
+}
