@@ -1,0 +1,34 @@
+GET http://localhost:5037/todos
+
+###
+
+POST http://localhost:5037/todos
+content-type: application/json
+
+{
+    "id": 1,
+    "name": "Commit changes",
+    "dueDate": "2025-04-03",
+    "isCompleted": false
+}
+
+###
+
+POST http://localhost:5037/todos
+content-type: application/json
+
+{
+    "id": 2,
+    "name": "Write demo",
+    "dueDate": "2025-04-03",
+    "isCompleted": false
+}
+
+###
+GET http://localhost:5037/todos/1
+
+###
+DELETE http://localhost:5037/todos/2
+###
+
+

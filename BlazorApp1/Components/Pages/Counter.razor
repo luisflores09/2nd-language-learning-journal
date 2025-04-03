@@ -12,8 +12,20 @@
 
 <p>InitialCount=@InitialCount</p>
 
+<div>
+    <input @oninput="OnInput">
+    <p>@text</p>
+</div>
+
+<div style="background-color: lightblue;"
+     @onmouseover="MouseOver"
+     @onmouseout="MouseOut"
+     >@divText</div>
+
 @code {
     private int currentCount = 0;
+    string text = "";
+    string divText = "Mouse out";
     protected override void OnInitialized()
     {
         currentCount = InitialCount;
@@ -28,5 +40,17 @@
     {
         await Task.Delay(1000);
         currentCount++;
+    }
+    private void OnInput(ChangeEventArgs e)
+    {
+        text = e.Value.ToString();
+    }
+    private void MouseOver(MouseEventArgs e)
+    {
+        divText = "Mouse over";
+    }
+    private void MouseOut(MouseEventArgs e)
+    {
+        divText = "Mouse out";
     }
 }
