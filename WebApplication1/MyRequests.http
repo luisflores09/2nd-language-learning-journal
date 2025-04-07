@@ -8,7 +8,7 @@ content-type: application/json
 {
     "id": 1,
     "name": "Commit changes",
-    "dueDate": "2025-04-03",
+    "dueDate": "2025-04-10",
     "isCompleted": false
 }
 
@@ -20,8 +20,32 @@ content-type: application/json
 {
     "id": 2,
     "name": "Write demo",
-    "dueDate": "2025-04-03",
+    "dueDate": "2025-04-10",
     "isCompleted": false
+}
+
+### Incorrectly dated
+
+POST http://localhost:5037/todos
+content-type: application/json
+
+{
+    "id": 3,
+    "name": "Incorrectly dated",
+    "dueDate": "2023-04-03",
+    "isCompleted": false
+}
+
+### Completed
+
+POST http://localhost:5037/todos
+content-type: application/json
+
+{
+    "id": 3,
+    "name": "Can't be completed",
+    "dueDate": "2023-04-03",
+    "isCompleted": true
 }
 
 ###
@@ -31,4 +55,4 @@ GET http://localhost:5037/todos/1
 DELETE http://localhost:5037/todos/2
 ###
 
-
+GET http://localhost:5037/tasks/1
