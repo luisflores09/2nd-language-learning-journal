@@ -155,3 +155,11 @@ Sentences, bullet points, paragraphs, copy and pastes are welcome!***"
 | Reflection on what I learned today |          Today I learned that the .NET framework makes it very easy to create a web API with full CRUD.                                       |
 | Reflection on how I learned today  |     I have found it very useful to code along tutorial videos from the dotnet channel, which I was not able to find a good resource for testing so I need to make sure I stay open to other ways of learning.                                                                            |
 | Reflections for the following day  | I need to make sure I switch focus to the next task if I am not getting much traction.
+
+| Today's Date 04/04/2025            |                                                                                                                                                                                                                          |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| What content plan to cover         | Delegates and Events in C#, Generics in C#, LINQ (Language Integrated Query) in C#, Asynchronous Programming in C#                    |
+| What content I actually covered    |                         Delegates and Events in C#, Generics in C#, LINQ (Language Integrated Query) in C#, Asynchronous Programming in C#                                                               |
+| Reflection on what I learned today |          I followed a Front-end tutorial video from the dotnet youtube channel where I went over the above topics                                        |
+| Reflection on how I learned today  |     Still finding the tutorials on dotnet youtube channel very helpful to get started but I need to find resources for more complex applications.                                                                            |
+| Reflections for the following day  | I will try to stick with the learning plan for this week and only learn other concepts after having covered all material for the day.
