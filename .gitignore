@@ -1,0 +1,134 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Backup & Report files from converting an old project file
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# IIS Express
+/.vs/
+
+# Azure DevOps
+*.tfignore
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# Coverage Analysis
+*.coverage
+*.coveragexml
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# Build Results
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.pdb
+*.cache
+*.ilk
+*.obj
+*.lib
+*.log
+*.vspscc
+*.vssscc
+*.tmp
+*.csproj.user
+*.csproj.FileListAbsolute.txt
+*.csprojAssemblyReference.cache
+
+# Web Files
+*.publishsettings
+*.pubxml
+*.publishproj
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node.js
+node_modules/
+
+# Yarn
+.yarn/
+.yarnrc.yml
+
+# Environment variables
+.env
+.env.*
+
+# Local History
+.localhistory/
+
+# IDEs
+.idea/
+*.sln.iml
