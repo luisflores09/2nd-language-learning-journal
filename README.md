@@ -42,6 +42,7 @@ I will have completed the following courses/resources/tasks/artifacts as evidenc
 - _.NET:_
   - Watch all 13 videos of ASP.NET Core for beginners - [Watch in Youtube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oW8nviYduHq7bmKode-p8Wy)
   - Watch all 13 videos of .NET Conf: Focus on Blazor 2020 - [Watch in Youtube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oWlP1Qpzg7Dwzxr298ewdUQ)
+  - DogAPI is a .NET-based web API designed to manage and retrieve information about dogs. - [Github Repository](https://github.com/luisflores09/DogAPI)
   - Cheatsheet - []()
 
 ## Learning Schedule:
@@ -171,3 +172,11 @@ Sentences, bullet points, paragraphs, copy and pastes are welcome!***"
 | Reflection on what I learned today | I am really happy with today's learning because I was able to create a full-stack Todo App.                                       |
 | Reflection on how I learned today  |    I struggled finding good resources online on how to send http request from the client to the server so today I used github copilot to guide me through the process.                                            |
 | Reflections for the following day  | Actually coding following github copilot's instructions felt a lot more rewarding and productive than following video tutorials.
+
+| Today's Date 04/08/2025            |                                                                                                                                                                                                                          |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| What content plan to cover         |  Learn about the .NET Class Library and its importance in .NET development, Familiarize yourself with commonly used namespaces, such as System, System.IO, System.Collections, and System.Threading, Understand how to use classes and interfaces from the .NET Class Library in your application.                   |
+| What content I actually covered    | All of the Above, and attempted to deploy using Azure.                              |
+| Reflection on what I learned today |  I really enjoy working with C# and .NET and their Class Library with a ton of functionality built in.          |
+| Reflection on how I learned today  |    Today's learning went well, I was not able to get to deploy my app using Azure yet.           |
+| Reflections for the following day  | Will continue trying to find ways to deploy using Azure for free, if not I will deploy using a different service.
